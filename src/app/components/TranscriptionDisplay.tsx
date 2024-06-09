@@ -31,10 +31,7 @@ const colors = [
   "bg-brown-200",
 ];
 
-const TranscriptionDisplay: React.FC<Props> = ({
-  conversation,
-  fileName,
-}) => {
+const TranscriptionDisplay: React.FC<Props> = ({ conversation, fileName }) => {
   const [speakerNames, setSpeakerNames] = useState<{ [key: string]: string }>(
     {},
   );
